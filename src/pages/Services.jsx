@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
 import braces from '../assets/braces.jpg'
-import Invisalign from '../assets/invisalign.jpg'
+import invisalign from '../assets/invisalign.jpg'
 import treat from '../assets/treat.jpg'
 import retainer from '../assets/retainer.jpg'
 import consult from '../assets/consult.jpg'
@@ -18,7 +18,7 @@ const services = [
   },
   {
     title: 'Invisalign® for Teens',
-    img: Invisalign,
+    img: invisalign,
     desc: 'All the power of Invisalign, designed for the teen experience — with compliance indicators and extra aligners included.',
     features: ['Compliance indicators', 'Replacement aligners included', 'Sports & activities friendly', 'No food restrictions'],
     href: '/getting-started',
