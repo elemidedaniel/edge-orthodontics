@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
 import dryoung from '../assets/dryoung.jpg'
 import braces from '../assets/braces.jpg'
-import Invisalign from '../assets/invisalign.jpg'
+import guide from '../assets/guide.jpg'
 import treat from '../assets/treat.jpg'
 import consult from '../assets/consult.jpg'
 
@@ -173,7 +173,7 @@ const services = [
   {
     title: 'Invisalign®',
     sub: 'Adults & Teens',
-    img: Invisalign,
+    img: guide,
     desc: 'Clear aligners that fit your life — discreet, removable, and effective for all ages.',
     to: '/services',
   },
